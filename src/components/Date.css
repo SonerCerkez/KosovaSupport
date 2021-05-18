@@ -1,0 +1,96 @@
+.date--container {
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 60vh;
+
+}
+.left-sectiondate {
+    width: 70vh;
+    margin-left: 15vh;
+    text-align: flex-start;
+    align-items: center;
+    height: 100%;
+    
+}
+.left-sectiondate p {
+    font-size: 20px;
+}
+.right-sectiondate {
+    width: 90vh;
+
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+.right-section {
+    position: absolute;
+    margin-left: 90vh;
+    top: auto;
+}
+.right-section h1, p, h3 {
+    padding: 10px;
+}
+.left-sectiondate h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.right-section p {
+    margin-right: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.right-section h3 {
+    margin-right: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.position1 img {
+    position: absolute;
+    z-index: -1;
+}
+.position2 img {
+    position: absolute;
+    z-index: 1;
+    margin-left: 30px;
+    margin-top: -30px;
+}
+.position3 img {
+    position: absolute;
+    z-index: 2;
+    margin-left: 70vh;
+}
+.position4 img {
+    position: absolute;
+    z-index: 3;
+    margin-left: 72.5vh;
+    margin-top: 3vh;
+}
+.position5 img {
+    position: absolute;
+    z-index: 3;
+    margin-top: 40vh;
+    margin-left: 5vh;
+    background-color: #ffffff;
+    opacity: 0.6;
+    background: transparent;
+    background-color: transparent;
+}
+.position6 img {
+    position: absolute;
+    z-index: 999;
+    margin-top: 43vh;
+    margin-left: 8vh;
+    opacity: 3;
+}
+
+.button--date button {
+    font-size: 15px;
+    position: absolute;
+    height: 43px;
+    width: 40vh;
+    background: darkblue;
+    border-radius: 15px;
+    border: 2px solid darkblue;
+    color: #fff;
+    font-size: 18px;
+}
+

@@ -1,0 +1,59 @@
+.linked--container {
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 60vh;
+
+}
+.left-linked {
+    width: 70vh;
+    margin-left: 15vh;
+    text-align: flex-start;
+    align-items: center;
+    height: 100%;
+    
+}
+.left-linked p {
+    font-size: 20px;
+}
+.right-linked {
+    width: 90vh;
+
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+.right-linked {
+    position: absolute;
+    margin-left: 90vh;
+    top: auto;
+}
+.right-linked h1, p, h3 {
+    padding: 10px;
+}
+.left-linked h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.right-linked p {
+    margin-right: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.right-linked h3 {
+    margin-right: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.button--linked button {
+    font-size: 15px;
+    position: absolute;
+    height: 43px;
+    width: 40vh;
+    background: darkblue;
+    border-radius: 15px;
+    border: 2px solid darkblue;
+    color: #fff;
+    font-size: 18px;
+}
+

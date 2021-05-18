@@ -1,0 +1,103 @@
+.first--container {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 195vh;
+    height: 70vh;
+}
+.starter-section {
+    position: absolute;
+    margin-left: 105vh;
+    top: auto;
+}
+.starter-section h1, p, h3 {
+    padding: 10px;
+}
+.starter-section h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.starter-section p {
+    margin-right: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.right-section h3 {
+    margin-right: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.position1 img {
+    position: absolute;
+    z-index: -1;
+}
+.position2 img {
+    position: absolute;
+    z-index: 1;
+    margin-left: 30px;
+    margin-top: -30px;
+}
+.position3 img {
+    position: absolute;
+    z-index: 2;
+    margin-left: 70vh;
+}
+.position4 img {
+    position: absolute;
+    z-index: 3;
+    margin-left: 72.5vh;
+    margin-top: 3vh;
+}
+.position5 img {
+    position: absolute;
+    z-index: 3;
+    margin-top: 40vh;
+    margin-left: 5vh;
+    background-color: #ffffff;
+    opacity: 0.6;
+    background: transparent;
+    background-color: transparent;
+}
+.position6 img {
+    position: absolute;
+    z-index: 999;
+    margin-top: 43vh;
+    margin-left: 8vh;
+    opacity: 3;
+}
+.button-starter button {
+    background-color: #fff;
+    color: darkblue;
+}
+.button-starter button {
+    font-size: 15px;
+    position: absolute;
+    height: 43px;
+    background: transparent;
+    border-radius: 15px;
+    border: 2px solid darkblue;
+    color: darkblue;
+}
+.button-starter button:hover {
+    background-color: darkblue;
+    color: #fff;
+}
+.button-starter1 button {
+    font-size: 15px;
+    position: absolute;
+    height: 43px;
+    background-color: darkblue;
+    border: 2px solid darkblue;
+    margin-left: 25vh;
+    color: #fff;
+    border-radius: 15px;
+}
+.button3 button:hover {
+    background-color: transparent;
+    color: black;
+}
+.button2 button:hover {
+    background-color: darkblue;
+    color: #fff;
+}
+.button3 {
+    color: darkblue;
+}
+
