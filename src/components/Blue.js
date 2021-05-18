@@ -5,6 +5,7 @@ import img1 from '../assets/mail.png'
 import img2 from '../assets/pipe.png'
 import img3 from '../assets/reply.png'
 import img4 from '../assets/circle.png'
+import img5 from '../assets/gray.png'
 import { Button } from './Button'
 
 
@@ -13,6 +14,9 @@ function Blue() {
         
         
     <div className="blue--container">
+        <div className="gray">
+            <img src={img5} alt="" />
+        </div>
         <div className="header">
         <h1>Featured In</h1>
         </div>

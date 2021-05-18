@@ -7,6 +7,7 @@ import Starter from '../Starter'
 import Date from '../Date'
 import Linked from '../Linked'
 import Shade from '../Shade'
+import Shade2 from '../Shade2'
 
 
 import Case from '../Case'
@@ -31,6 +32,7 @@ function Home () {
         <Case2 />
         <Case />
         <Blue />
+        <Shade2 />
        
         
 
