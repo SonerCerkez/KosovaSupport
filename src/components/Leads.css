@@ -1,0 +1,32 @@
+.leads--container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 60vh;
+}
+
+.leads--button button {
+    font-size: 15px;
+    position: absolute;
+    height: 43px;
+    width: 40vh;
+    background: darkblue;
+    border-radius: 10px;
+    border: 2px solid darkblue;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+
+.first--sec {
+margin-left: 30vh;
+}
+.second--sec {
+    margin-left: 30vh;
+    width: 60vh;
+    }
+    .second--sec p {
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+    }

@@ -97,3 +97,11 @@
     margin-right: 205vh;
     margin-top:  40vh;
 }
+
+@media only screen and (max-width: 768px) {
+    
+    .blue--container {
+      display: flex;
+      flex-direction: column;
+    }
+  }

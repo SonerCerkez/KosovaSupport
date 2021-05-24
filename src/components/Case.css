@@ -246,3 +246,10 @@
     margin-left: 25vh;
     margin-top: -50px;
 }
+@media only screen and (max-width: 768px) {
+    
+    .case--container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
