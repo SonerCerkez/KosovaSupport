@@ -5,11 +5,11 @@ export const menu = [
     },
     {
         name:"About us",
-        to:"/needs"
+        to:"/aboutus"
     },
     {
         name:"Solutions",
-        to:"/by-category"
+        to:"/solutions"
     },
     {
         name:"Products",
@@ -17,7 +17,7 @@ export const menu = [
     },
     {
         name:"Contact",
-        to:"/pricing"
+        to:"/contact"
     },
     
 ]

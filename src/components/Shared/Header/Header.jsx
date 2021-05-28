@@ -34,15 +34,17 @@ const Header = (props) => {
                 buttonStyle='btn--outline'
                 buttonSize='btn--large'
                 >
-                    LOG IN <i class="fas fa-sign-in-alt" />
+                    LOG IN  <i class="fas fa-sign-in-alt" />
                 </Button>
-                <Button className='header--button2'  
+                
+                <Button className='btns'  
                 buttonStyle='btn--outline'
                 buttonSize='btn--large'
                 >
                     SIGN UP <i class="fas fa-user-plus" /> 
                 </Button>
                 </div>
+               
     </header>
   );
 };
