@@ -1,3 +1,19 @@
 .right-slicker {
     z-index: -999;
+    background-image: url(office1.png);
+    width: 100%;
+    height: 82%;
+}
+.right-slicker {
+    width: 100%;
+    height: 80vh;
+}
+.right-slicker::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.651);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 82%;
 }

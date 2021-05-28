@@ -10,7 +10,9 @@ import img1 from '../assets/date.png'
 
 function Date() {
     return (
-        <div>
+
+     
+   
             <div className="date--container">
 
                 <div className="left-sectiondate">
@@ -33,7 +35,7 @@ function Date() {
                         <img src={img1} alt="" />         
 </div>
                 </div>
-            </div>
+        
         
     )
 }

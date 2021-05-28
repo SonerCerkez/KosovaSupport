@@ -19,14 +19,13 @@
 }
 .right-sectiondate {
     width: 90vh;
-
     text-align: center;
     align-items: center;
     height: 100%;
+    margin-left: 20vh;
 }
 .right-section {
     position: absolute;
-    margin-left: 90vh;
     top: auto;
 }
 .right-section h1, p, h3 {

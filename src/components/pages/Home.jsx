@@ -2,6 +2,7 @@ import React from 'react'
 import '../../App.css'
 
 
+import Header from '../../components/Shared/Header/Header'
 import Slicker from '../Slicker'
 import Starter from '../Starter'
 import Date from '../Date'
@@ -24,6 +25,7 @@ import Footer from '../Footer'
 function Home () {
     return (
         <>
+        <Header />
         <Slicker />
         <Starter />
         

@@ -1,12 +1,11 @@
-
 import React from 'react'
 import '../App.css';
-import './Leads.css';
+import './Test.css';
 import {  Button  } from './Button'
 import img1 from '../assets/lead.png'
 
 
-class Leads extends React.Component {
+class Test extends React.Component {
   render  ()  {
     return <div className="leads--container">
   <div className="first--sec">
@@ -32,4 +31,4 @@ class Leads extends React.Component {
   }
 }
 
-export default Leads
+export default Test

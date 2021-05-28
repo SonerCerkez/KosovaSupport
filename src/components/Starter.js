@@ -37,7 +37,7 @@ function Starter() {
                     <img src={img6} alt='al1' />
                     </div>
                 </div>
-
+              
                 <div className="starter-section">
                     <h1>We are not your typical Lead <br /> Generation Agency </h1>
                     <p>Our team handles every aspect of a client's top-of-the-sales-funnel <br /> needs, from building targeted sales leads lists to B2B appointment <br />
@@ -46,21 +46,23 @@ function Starter() {
                      copywriters.</h3>
                      <p>For us, its not just a job - it's a lifestyle. And this lifestyle has led to <br /> some of the best work on the market, Don't take our word for it! <br />
                         We're proud of our many customer testimonials on Clutch, and <br /> rated 5 of 5 by dozens of clients.</p>
+                        
             
                         <div className="button-starter">
                   <Button className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
                   >Learn More</Button>    </div>
+                  
                   <div className="button-starter1">
                   <Button className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
                   >Find a job with us!</Button>    </div>            
-
+</div>
                 </div>
             </div>
-        </div>
+     
     )
 }
 
