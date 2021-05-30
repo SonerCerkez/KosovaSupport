@@ -3,6 +3,7 @@
     flex-direction: row;
     width: 90%;
     height: 60vh;
+    
 }
 
 .leads--button button {
@@ -17,8 +18,13 @@
     font-size: 18px;
     
 }
-
-
+.second--sec {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.leads--button {
+    font-family: "CircularStd";
+}
 .first--sec {
 margin-left: 30vh;
 }

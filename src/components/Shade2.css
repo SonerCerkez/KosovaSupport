@@ -38,6 +38,7 @@
     margin-left: 112vh;
     margin-top: 10vh;
     z-index: 1;
+    font-family: "CircularStd";
 }
 .form-shade input {
     font-size: 15px;

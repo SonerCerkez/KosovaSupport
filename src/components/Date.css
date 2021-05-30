@@ -14,6 +14,11 @@
     height: 100%;
     
 }
+.left-sectiondate {
+  
+    font-family: "CircularStd";
+}
+
 .left-sectiondate p {
     font-size: 20px;
 }
