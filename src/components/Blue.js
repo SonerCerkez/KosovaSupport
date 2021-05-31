@@ -9,16 +9,18 @@ import img5 from '../assets/gray.png'
 import { Button } from './Button'
 
 
+
+
 function Blue() {
     return (
-        
+
         
     <div className="blue--container">
         <div className="gray">
             <img src={img5} alt="" />
         </div>
         <div className="header">
-        <h1>Featured In</h1>
+        <h1> Featured In</h1>
         </div>
         <div className="blue1-container"> 
         <div className="first-image">

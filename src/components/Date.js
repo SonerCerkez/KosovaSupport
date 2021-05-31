@@ -24,7 +24,8 @@ function Date() {
                     <p>Weather it be a phone call, an online demo, or an in-person meeting <br /> at a trade show, be sure to receive high-quality appointment <br /> 
                     setting services from Kosovasupport SDR's. We help get you in front <br /> of your priority prospects </p>
                     <div className="button--date">
-                  <Button className='btns'
+                  <Button
+                  className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
                   >Explore Appointment Setting Services</Button>    </div>

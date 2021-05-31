@@ -3,6 +3,7 @@ import '../../App.css'
 
 
 import Header from '../../components/Shared/Header/Header'
+
 import Slicker from '../Slicker'
 import Starter from '../Starter'
 import Date from '../Date'
@@ -10,6 +11,7 @@ import Leads from '../Leads'
 import Linked from '../Linked'
 import Shade from '../Shade'
 import Shade2 from '../Shade2'
+
 
 
 import Case from '../Case'
@@ -26,6 +28,7 @@ function Home () {
     return (
         <>
         <Header />
+        
         <Slicker />
         <Starter />
         

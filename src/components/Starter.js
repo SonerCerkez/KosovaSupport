@@ -8,6 +8,8 @@ import img3 from '../assets/ellipse.png'
 import img4 from '../assets/fly.png'
 import img5 from '../assets/rectangle.png'
 import img6 from '../assets/goal.png'
+import { motion, AnimatePresence } from "framer-motion"
+
 
 
 
@@ -37,9 +39,13 @@ function Starter() {
                     <img src={img6} alt='al1' />
                     </div>
                 </div>
-              
-                <div className="starter-section">
-                    <h1>We are not your typical Lead <br /> Generation Agency </h1>
+                <AnimatePresence>
+                <motion.div animate={{ x: 100 }}
+  transition={{ ease: "easeOut", duration: 2}}
+  
+  className="starter-section">
+                
+                    <h1 >We are not your typical Lead <br /> Generation Agency </h1>
                     <p>Our team handles every aspect of a client's top-of-the-sales-funnel <br /> needs, from building targeted sales leads lists to B2B appointment <br />
                      setting with qualified prospects.</p>
                      <h3>The Kosovasupport team is made up of experienced B2B sales <br /> development representatives (SDR's) marketing gurus, and <br /> 
@@ -58,10 +64,15 @@ function Starter() {
                   <Button className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
-                  >Find a job with us!</Button>    </div>            
-</div>
+                  >Find a job with us!</Button>    </div>      
+                        
+</motion.div>
+</AnimatePresence>
                 </div>
+                
             </div>
+            
+            
      
     )
 }
