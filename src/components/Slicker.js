@@ -2,6 +2,7 @@ import React from 'react'
 import '../App.css';
 import './Slicker.css';
 import { motion } from "framer-motion"
+import { Button } from './Button'
 
 
 
@@ -23,10 +24,32 @@ function Slicker() {
                     <h1>Lead Generation Services That Drive Results.</h1>
                     <p>Speak with a seasoned sales specialist to get started with lead
                         research, email deliverability fixing, B2B appointment setting and more.
-                        
                     </p>
+                    
                     </motion.div>
-
+                    
+                    <div className="slicker--button">    
+                    <motion.div
+                    initial={{ x: '100vw' }}
+                    animate={{ x: 0 }}
+                    transition={{ type: 'spring', stiffness: 20, delay: 1.5 }}
+                    >
+              <Button className='btns'  
+                buttonStyle='btn--primary'
+                buttonSize='btn--large'
+                >Book a call</Button>  </motion.div>   </div> 
+                    <motion.div
+                    initial={{ x: '100vw' }}
+                    animate={{ x: 0 }}
+                    transition={{ type: 'spring', stiffness: 20, delay: 1.5 }}
+                    className="form--slicker">
+                         <form> 
+                         <label for="phone2"></label>
+            <input type="tel" id="phone" name="phone2" color="white" size='30' placeholder="youremail@kosovasupport.com" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></input>
+                         </form>
+                    </motion.div>
+                     
+                    
         <div className="right-slicker">
                     <motion.div 
                     
@@ -55,7 +78,9 @@ function Slicker() {
                     <h5> Satisfied Client</h5>
                     <h2>3.007</h2>
                     </div>
+                    
                     </div>
+                    
                     </div>
                         
                     
