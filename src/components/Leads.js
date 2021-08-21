@@ -3,12 +3,14 @@ import '../App.css';
 import './Leads.css';
 import {  Button  } from './Button'
 import img1 from '../assets/lead.png'
+import img2 from '../assets/magnify.gif'
 
 
 class Leads extends React.Component {
   render  ()  {
     return <div className="leads--container">
   <div className="first--sec">
+    
       <img src={img1} alt="" />    
                   </div>
                   <div className="second--sec">
@@ -17,7 +19,11 @@ class Leads extends React.Component {
                       days and even Weeks for you spell SDR's out. </p>
                       <p><b>Use only fresh sales leads for cold email campaings and appointment setting.</b> Don't spend your time on anything below 100% quality
                       and personalization  </p>
+                      <div className="gif">
+                        <img src={img2} alt="" />
+                      </div>
                   <div className="leads--button">
+                    
       <Button className='leads-button'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'

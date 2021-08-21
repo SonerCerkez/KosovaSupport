@@ -2,11 +2,7 @@ import React from 'react'
 import '../App.css';
 import './Slicker.css';
 import { motion } from "framer-motion"
-import { Button } from './Button'
-
-
-
-
+import { Button } from './Button'  
 
 
 
@@ -15,9 +11,10 @@ function Slicker() {
     return (
         
         <div>      
+        
+    
                 <div className="left-slicker">
                     <motion.div 
-                    
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3, duration: 3.5 }} className="h1slcik">
@@ -27,6 +24,7 @@ function Slicker() {
                     </p>
                     
                     </motion.div>
+
                     
                     <div className="slicker--button">    
                     <motion.div
@@ -87,20 +85,12 @@ function Slicker() {
                     </motion.div>
                     
                     </div>
-                  
-                    
-                 
-                    
 
                     
                     </div>
                 </div>
                    
-                           
-                                                               
-                         
-                        
-     
+    
         
     )
 }

@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
+  import React, { useState, useEffect } from "react";
 import "./Header.scss";
 import Navbar from "../Navbar/Navbar";
 import throttle from "lodash.throttle";
 import Logo from "../Logo/Logo";
 import{ Button } from '../../../components/Button'
+
 
 
 
@@ -29,6 +30,7 @@ const Header = (props) => {
   else classes.push(props.styles);
 
   return (
+    
     <header className={`header ${classes.join(" ")}`}>
       <Logo scrolled={scrolled || props.styles === "scrolled"} />
       <Navbar />
@@ -41,12 +43,15 @@ const Header = (props) => {
                     LOG IN  <i class="fas fa-sign-in-alt" />
                 </Button>
                 
+            
                 <Button className='btns'  
                 buttonStyle='btn--outline'
                 buttonSize='btn--large'
                 >
-                    SIGN UP <i class="fas fa-user-plus" /> 
+                    SIGN UP  
                 </Button>
+                
+                
                 </div>
                
     </header>

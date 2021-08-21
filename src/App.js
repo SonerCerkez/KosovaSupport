@@ -7,6 +7,7 @@ import {translate} from './translation/translate'
 import { useSelector } from 'react-redux'
 
 
+
 function App() {
   const language = useSelector((state) => state.language.language);
   return (

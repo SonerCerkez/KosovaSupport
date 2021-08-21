@@ -5,6 +5,13 @@
     height: 60vh;
     
 }
+.gif img {
+    position: absolute;
+    margin-left: 47vh;
+    margin-top: -33vh;
+    width: 8vh;
+    height: 8vh;
+}
 
 .leads--button button {
     font-size: 15px;

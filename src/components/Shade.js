@@ -11,7 +11,7 @@ import img2 from '../assets/shade.png'
 
 function Shade() {
     return (
-        <>
+        <div>
             <div className="shade--container">
                 <div className="image1">
                     <img src={img1} alt='img' />
@@ -41,7 +41,7 @@ function Shade() {
                 
                           
 
-                </>
+                </div>
            
         
     )

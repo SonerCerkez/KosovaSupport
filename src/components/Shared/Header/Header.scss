@@ -43,11 +43,52 @@
     }
   }
 }
+.header--button {
+width: 40vh;
+display: flex;
+font-family: "CircularStd";
+}
 .header--button button {
   margin-right: 20px;
   border: none;
-  font-size: 19px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+.sign-up-button {
+  border: 2px solid purple;
 }
 .header--button2 button {
   font-size: 15px;
+}
+.nav-links-mobile {
+  display: block;
+  text-align: center;
+  margin: 2rem auto;
+  border-radius: 4px;
+  width: 80%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: #fff;
+  padding: 14px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+}
+
+.nav-links-mobile:hover {
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+  
+}
+.menu-icon {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-100%, 60%);
+  font-size: 1.8rem;
+  cursor: pointer;
 }
