@@ -1,0 +1,35 @@
+.nav-logo{
+      text-decoration: none;
+      display: flex;
+      align-items: center;  
+      padding-left: 0em; 
+        img{
+           width: 28px;
+           height:30px;
+      }
+       .text-logo{
+        display: inline-flex;
+          font-size: 16px;
+          padding-left: 0.4em;
+          strong{
+            background-image: url('../../../assets/img/logoshoferi.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-size: 15px;
+            height: 34px;
+            width: 35px;
+            text-align: center;
+            padding-top: 6px;
+          }
+          p{
+            margin-left: 8px;
+            font-weight: 600;
+            margin-top: 5px;
+            color: rgb(255, 255, 255);
+
+          }
+       }
+
+
+}

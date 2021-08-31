@@ -1,15 +1,20 @@
-  import React, { useState, useEffect } from "react";
-import "./Header.scss";
-import Navbar from "../Navbar/Navbar";
+import React, { useState, useEffect } from "react";
+import Logo from '../Logo/Logo';
+import Menu from '../Menu/Navigationlists';
+import { NavLink } from 'react-router-dom';
+import CartNumber from './CartNumber';
+import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
+import './Header.scss';
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import throttle from "lodash.throttle";
-import Logo from "../Logo/Logo";
-import{ Button } from '../../../components/Button'
-
-
-
+import { FormattedMessage } from "react-intl";
+import SideDrawer from "./SideDrawer/SideDrawer";
 
 
 const Header = (props) => {
+
+
   let classes = [];
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
@@ -24,38 +29,35 @@ const Header = (props) => {
     };
   }, []);
 
-
-
   if (scrolled) classes.push("scrolled");
   else classes.push(props.styles);
 
   return (
-    
     <header className={`header ${classes.join(" ")}`}>
-      <Logo scrolled={scrolled || props.styles === "scrolled"} />
-      <Navbar />
-
-      <div className="header--button">
-                <Button className='btns' 
-                buttonStyle='btn--outline'
-                buttonSize='btn--large'
-                >
-                    LOG IN  <i class="fas fa-sign-in-alt" />
-                </Button>
-                
-            
-                <Button className='btns'  
-                buttonStyle='btn--outline'
-                buttonSize='btn--large'
-                >
-                    SIGN UP  
-                </Button>
-                
-                
-                </div>
-               
+      <Logo />
+      <Menu />
+      <div className="loginSignup-links">
+      <div className="nav-icons">
+          <NavLink to="/favorites" className="icons shopping-link">
+          <FavoriteBorderIcon/>
+          </NavLink>
+          <NavLink to="/cart" className="icons favorites-link">
+          <ShoppingCartOutlinedIcon/>
+          <CartNumber/>
+          </NavLink>
+          <NavLink to="/notification" className="icons notification-link">
+          <NotificationsNoneIcon/>
+          </NavLink>
+        </div>
+        <NavLink to="/login" className="nav-link--transparent" >
+          <FormattedMessage id="header.login" defaultMessage="Log In"/>
+        </NavLink>
+        <NavLink to="/signup" className="nav-link--bg " >
+        <FormattedMessage id="header.register" defaultMessage="Register"/>
+        </NavLink>
+      </div>
+      <SideDrawer/>
     </header>
-    
   );
 };
 

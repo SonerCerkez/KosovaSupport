@@ -4,7 +4,7 @@
     flex-direction: row;
     width: 90%;
     height: 60vh;
-
+    flex-wrap: wrap;
 }
 .left-sectiondate {
     width: 70vh;

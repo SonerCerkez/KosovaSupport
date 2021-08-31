@@ -1,5 +1,5 @@
 import React from 'react';
-import logoblue from '../../../assets/kosova.png';
+import logoblue from '../../../assets/kosovasupportb.png';
 const LogoB = ()=>{
     return(
         <>

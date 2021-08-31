@@ -17,7 +17,7 @@ function Slicker() {
                     <motion.div 
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ delay: 0.3, duration: 3.5 }} className="h1slcik">
+                    transition={{ delay: 0.1, duration: 1.5 }} className="h1slcik">
                     <h1>Lead Generation Services That Drive Results.</h1>
                     <p>Speak with a seasoned sales specialist to get started with lead
                         research, email deliverability fixing, B2B appointment setting and more.
@@ -30,7 +30,7 @@ function Slicker() {
                     <motion.div
                     initial={{ x: '100vw' }}
                     animate={{ x: 0 }}
-                    transition={{ type: 'spring', stiffness: 20, delay: 1.5 }}
+                    transition={{ type: 'spring', stiffness: 30, delay: 1 }}
                     >
               <Button className='btns'  
                 buttonStyle='btn--primary'
@@ -39,7 +39,7 @@ function Slicker() {
                     <motion.div
                     initial={{ x: '100vw' }}
                     animate={{ x: 0 }}
-                    transition={{ type: 'spring', stiffness: 20, delay: 1.5 }}
+                    transition={{ type: 'spring', stiffness: 30, delay: 1 }}
                     className="form--slicker">
                          <form> 
                          <label for="phone2"></label>
@@ -53,7 +53,7 @@ function Slicker() {
                     
                     initial={{ x: '80vw' }}
                     animate={{ x: 0 }}
-                    transition={{ type: 'spring', stiffness: 20, delay: 1.5 }} className="h2slcik">
+                    transition={{ type: 'spring', stiffness: 30, delay: 1 }} className="h2slcik">
                     <div className="pack">
                         <div className="packbox">
                     <div className="slciker1">

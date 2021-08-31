@@ -4,14 +4,14 @@
     flex-direction: column;
     width: 195vh;
     height: 56vh;
+    flex-wrap: wrap;
 }
 
 .starter-section {
     position: absolute;
     margin-left: 105vh;
     top: auto;
-   
-    
+    flex-wrap: wrap; 
 }
 .starter-section h1, p, h3 {
     padding: 10px;

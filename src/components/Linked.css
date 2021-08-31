@@ -4,7 +4,7 @@
     flex-direction: row;
     width: 90%;
     height: 60vh;
-
+    flex-wrap: wrap;
 }
 .left-linked {
     width: 70vh;
@@ -12,6 +12,7 @@
     text-align: flex-start;
     align-items: center;
     height: 100%;
+    flex-wrap: wrap;
     
 }
 .left-linked p {

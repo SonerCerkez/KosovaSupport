@@ -1,0 +1,139 @@
+.side-drawer{
+    height: 1500px;
+    background: white;
+    box-shadow: 2px 0px 5px (0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    max-width: 400px;
+    z-index: 200;
+    transition: transform 0.3s ease-out; 
+    max-height: 100vh;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+   .logoja-up{
+        margin-top: 40px;
+        margin-left: 30px;
+        .nav-logo .text-logo p{
+            color: black!important;
+        }
+   }
+
+    .navlinks{
+        position: absolute;
+        top: 120px;
+        left: 80px;
+        text-align: left;
+        li{
+            list-style: none;
+            padding-top: 10px;
+            font-size: 22px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgb(230, 230, 230);
+            width: 220px;
+            .icon{
+                margin-top: 7px;
+                margin-left: 10px;
+                position: absolute;
+                color: #921982;
+            }
+            a{
+                color: black;
+                font-size: 17px;
+            }
+            .courseitems{
+                li{
+                    border-bottom: none;
+                    padding-bottom: 8px;
+                    padding-top: 3px;
+                    font-size: 20px;
+                    cursor: pointer;
+                    &:hover{
+                        color: #1D72FE;
+                    }
+                }
+            }
+      
+         
+        }
+        .btn{
+            overflow: hidden;
+            background-color: #4e60c4;
+            width: 150px;
+            height: 47px !important;
+            text-align: center;
+            border-radius: 50px;
+            margin-top: 20px;
+            transition: .800s ease-in-out;
+            cursor: pointer;
+            a{
+                font-size: 17px;
+                color: white;
+                
+            }
+        }
+        .btn:hover{
+            border:1px solid #ffa300;
+            background-color: white;
+            a{
+                color: rgb(0, 0, 0);
+            }
+        }
+        .btn1{
+            overflow: hidden;
+            background-color: white;
+            a{
+                color: rgb(0, 0, 0);
+            }
+            &:hover{
+
+                a{
+                    color: #ffa300;
+                }
+            }
+        }
+
+        .buttons{
+            border: none;
+            background-color: #1D72FE;
+            color: white;
+            padding: 12px 10px;
+            width: 120px;
+            margin-bottom: 10px;
+            border-radius: 11px;
+            padding-left: 30px;
+            margin-top: 25px;
+            font-size: 16px;
+            a{
+                color: white;
+            }
+        }
+    }
+    
+}
+.side-drawer.open{
+    transform: translateX(0);
+}
+.side-drawer::-webkit-scrollbar {
+    background-color: rgb(245, 245, 245);
+    width: 7px;
+    border: none;
+  }
+.side-drawer::-webkit-scrollbar-thumb {
+background: #CCCC; 
+  }
+
+
+@media(max-width:414px){
+    .side-drawer{
+        .logo{
+            margin-left: 30px;
+        }
+        .navlinks{
+        left: 30px;
+        }
+    }
+}
+
+

@@ -1,11 +1,12 @@
 .case--container {
     display: flex;
     flex-direction: row;
-    align-items: baseline;  
+    
     justify-content: center;
     height: 20%;
     color: black;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .first-line {
